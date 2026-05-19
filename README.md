@@ -153,7 +153,7 @@ Anthropos is the Greek word for human being. Nymbra Anthropos is Nymbra in human
 
 ## Contact
 
-Built by Eliana Jain — technical writer, documentation practitioner, and someone who wrote their undergraduate thesis on post-Roman skeletal remains in Menorca and finds that osteology applies to more things than you might expect.
+Built by Eliana Jain — technical writer, documentation practitioner, and someone who wrote her undergraduate thesis on post-Roman skeletal remains in Menorca and finds that osteology applies to more things than you might expect.
 
 - Hashnode: [elianajain.hashnode.dev](https://elianajain.hashnode.dev)
 - GitHub: [github.com/ElianaJain](https://github.com/ElianaJain)
