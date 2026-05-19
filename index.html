@@ -17,7 +17,7 @@
   --raised: #27221D;
   --bone: #E8DFC8;
   --bone-dim: #B8AC94;
-  --bone-faint: #6B6054;
+  --bone-dim: #6B6054;
   --accent: #C4A265;
   --accent-dim: #8A6E42;
   --accent-glow: rgba(196,162,101,0.12);
@@ -87,7 +87,7 @@ body::before {
 .nav-extends {
   font-family: 'DM Mono', monospace;
   font-size: 10px;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   margin-left: 16px;
   letter-spacing: 0.08em;
   border-left: 1px solid var(--border-mid);
@@ -104,7 +104,7 @@ body::before {
 .nav-links a {
   font-size: 11px;
   font-weight: 500;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 4px;
@@ -213,7 +213,7 @@ body::before {
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
 }
  
 .hero-meta-value {
@@ -277,7 +277,7 @@ body::before {
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   opacity: 0;
   animation: fadeUp 0.8s ease 0.8s forwards;
 }
@@ -285,7 +285,7 @@ body::before {
 .scroll-line {
   width: 40px;
   height: 1px;
-  background: var(--bone-faint);
+  background: var(--bone-dim);
   animation: scrollPulse 2s ease infinite 1.5s;
 }
  
@@ -324,7 +324,7 @@ body::before {
   font-size: 80px;
   font-weight: 300;
   line-height: 1;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   opacity: 0.3;
   letter-spacing: -0.04em;
   flex-shrink: 0;
@@ -458,7 +458,7 @@ body::before {
   font-size: 10px;
   font-weight: 500;
   padding: 12px 20px;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   border-bottom: 2px solid transparent;
   cursor: pointer;
   background: none;
@@ -505,7 +505,7 @@ body::before {
   font-size: 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   margin-bottom: 6px;
 }
  
@@ -520,14 +520,14 @@ body::before {
  
 .r-diagram { margin: 20px 0; border: 1px solid var(--border-mid); border-radius: 6px; overflow: hidden; background: #0D0B08; }
 .r-diagram img { width: 100%; display: block; filter: brightness(0.95); }
-.r-diagram-caption { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bone-faint); padding: 8px 14px; border-top: 1px solid var(--border); }
+.r-diagram-caption { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bone-dim); padding: 8px 14px; border-top: 1px solid var(--border); }
  
 .r-constraints-label {
   font-family: 'DM Mono', monospace;
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
@@ -584,7 +584,7 @@ body::before {
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   padding: 14px 20px;
   text-align: left;
   background: var(--raised);
@@ -724,7 +724,7 @@ body::before {
  
 .phase-status.complete { color: var(--established); }
 .phase-status.active { color: var(--accent); }
-.phase-status.pending { color: var(--bone-faint); }
+.phase-status.pending { color: var(--bone-dim); }
  
 .phase-title {
   font-size: 14px;
@@ -753,7 +753,7 @@ body::before {
  
 .footer-left {
   font-size: 12px;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   line-height: 1.6;
 }
  
@@ -769,7 +769,7 @@ body::before {
   font-family: 'DM Mono', monospace;
   font-size: 10px;
   letter-spacing: 0.08em;
-  color: var(--bone-faint);
+  color: var(--bone-dim);
   text-decoration: none;
   transition: color 0.15s;
 }
@@ -979,7 +979,7 @@ body::before {
       </div>
  
       <div class="r-diagram">
-        <img src="docs/gait-cycle-diagram.svg" alt="Bipedal gait cycle showing skeletal load concentration by phase"/>
+        <img src="media/gait-cycle-diagram.svg" alt="Bipedal gait cycle showing skeletal load concentration by phase"/>
         <div class="r-diagram-caption">Fig. 1 — Gait cycle load distribution · six phases · DC-1.1 DC-1.2 DC-1.3</div>
       </div>
     </div>
@@ -1042,7 +1042,7 @@ body::before {
       </div>
  
       <div class="r-diagram">
-        <img src="docs/joint-rom-diagram.svg" alt="Joint range of motion arcs showing biological envelope vs actuator constraint"/>
+        <img src="media/joint-rom-diagram.svg" alt="Joint range of motion arcs showing biological envelope vs actuator constraint"/>
         <div class="r-diagram-caption">Fig. 2 — Joint ROM envelopes · biological vs actuator constraint · DC-2.1</div>
       </div>
     </div>
@@ -1063,7 +1063,7 @@ body::before {
           <span class="constraint-code">DC-2.2</span>
           <span class="chip chip-e">E</span>
         </div>
-        <p class="constraint-body">High-mobility joint analogs must incorporate dynamic stabilization — active torque control at multiple axes. High-stability joint analogs can rely more heavily on mechanical constraint but must respect the bony impingement limits in the ROM table.</p>
+        <p class="constraint-body">High-mobility joint analogs must incorporate dynamic stabilization with active torque control at multiple axes. High-stability joint analogs can rely more heavily on mechanical constraint but must respect the bony impingement limits in the ROM table.</p>
       </div>
  
       <div class="constraint-card">
@@ -1100,7 +1100,7 @@ body::before {
       </div>
  
       <div class="r-diagram">
-        <img src="docs/cortical-trabecular-diagram.svg" alt="Long bone cross-section showing cortical to trabecular gradient and component specification"/>
+        <img src="media/cortical-trabecular-diagram.svg" alt="Long bone cross-section showing cortical to trabecular gradient and component specification"/>
         <div class="r-diagram-caption">Fig. 3 — Cortical-to-trabecular gradient · material zones · DC-3.1</div>
       </div>
  
@@ -1110,7 +1110,7 @@ body::before {
       </div>
  
       <div class="r-diagram">
-        <img src="docs/load-asymmetry-diagram.svg" alt="Upper vs lower limb load asymmetry from bipedal osteological evidence"/>
+        <img src="media/load-asymmetry-diagram.svg" alt="Upper vs lower limb load asymmetry from bipedal osteological evidence"/>
         <div class="r-diagram-caption">Fig. 4 — Load asymmetry · upper vs lower limb · DC-3.2</div>
       </div>
     </div>
@@ -1173,7 +1173,7 @@ body::before {
       </div>
  
       <div class="r-diagram">
-        <img src="docs/failure-mode-diagram.svg" alt="Skeleton showing failure mode distribution with color-coded heat spots by priority"/>
+        <img src="media/failure-mode-diagram.svg" alt="Skeleton showing failure mode distribution with color-coded heat spots by priority"/>
         <div class="r-diagram-caption">Fig. 5 — Failure mode distribution · DJD and stress fracture sites · DC-4.1 DC-4.2</div>
       </div>
     </div>
